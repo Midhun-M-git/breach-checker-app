@@ -1,21 +1,16 @@
 # Breach Checker App
 
-Check if your email or credentials have been exposed in a known data breach.
-
-## About
-A Python tool that checks if your email appeared in publicly known data breaches.
+Check if your email has been exposed in a known data breach.
 
 ## Features
-- Email breach check via API
-- Privacy-focused - no data stored
-- Shows breach details (name, date, data types compromised)
+- Email breach check via HaveIBeenPwned API
+- Privacy focused
+- Shows breach name, date, and compromised data types
 
 ## Getting Started
 
-### Prerequisites
-- Python 3.8+
+Prerequisites: Python 3.8+
 
-### Installation
 ```bash
 git clone https://github.com/Midhun-M-git/breach-checker-app.git
 cd breach-checker-app
